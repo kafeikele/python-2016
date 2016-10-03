@@ -23,5 +23,10 @@ def show3(**kargs):
 user_dict = {'key1':123,'key2':456}
 show3(**user_dict)   
     
-    
+def show4(*arg):
+    for item in arg:
+        print item
+        
+user=("wxh","whh","wdh","wwh") 
+show4(*user)   
     
