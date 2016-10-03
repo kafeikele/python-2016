@@ -16,6 +16,12 @@ def show2(**kargs):
     for i in kargs.items():
         print i
 show2(name="wxh",age="25")
+
+def show3(**kargs):
+    for i in kargs.items():
+        print i
+user_dict = {'key1':123,'key2':456}
+show3(**user_dict)   
     
     
     
