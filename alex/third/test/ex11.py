@@ -5,8 +5,10 @@ Created on 2016年10月4日
 @author: wxh
 '''
 from IPython.utils._process_common import arg_split
-
 print chr(65)
+print chr(90)
+print chr(97)
+print chr(122)
 print ord('a')
 print hex(20)
 print bin(2)
