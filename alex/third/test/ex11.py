@@ -5,6 +5,7 @@ Created on 2016年10月4日
 @author: wxh
 '''
 from IPython.utils._process_common import arg_split
+#ascll值转换
 print chr(65)
 print chr(90)
 print chr(97)
