@@ -21,3 +21,5 @@ Personal information of %s:
 ---------------------
 %s
 ''' % ( name,name,age,job,salary,msg)
+
+test
