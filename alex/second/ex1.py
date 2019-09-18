@@ -12,7 +12,8 @@ for line in f.readlines():
 f.close()
 
 #strip去掉换行符，split分开，是对字符串进行修饰
-#line = line.strip('\n').split(':') 已经由字符串转换为列表
+#line = line.strip('\n').split(':')
+ 已经由字符串转换为列表
 #还可以对列表进行修饰，取值[0]
 # f.write(u'学习python'.encode('utf-8'))
 
